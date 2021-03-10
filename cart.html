@@ -1,0 +1,515 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>cart page</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    
+    <!-- CSS 
+    ========================= -->
+    <!--bootstrap min css-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--owl carousel min css-->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <!--slick min css-->
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <!--magnific popup min css-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!--font awesome css-->
+    <link rel="stylesheet" href="assets/css/font.awesome.css">
+    <!--ionicons css-->
+    <link rel="stylesheet" href="assets/css/ionicons.min.css">
+    <!--linearicons css-->
+    <link rel="stylesheet" href="assets/css/linearicons.css">
+    <!--animate css-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!--jquery ui min css-->
+    <link rel="stylesheet" href="assets/css/jquery-ui.min.css">
+    <!--slinky menu css-->
+    <link rel="stylesheet" href="assets/css/slinky.menu.css">
+    <!--plugins css-->
+    <link rel="stylesheet" href="assets/css/plugins.css">
+    
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!--modernizr min js here-->
+    <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
+
+</head>
+
+<body>
+
+
+   <!--header area start-->
+    
+ 
+   <header>
+    <div class="main_header">
+        <div class="header_top">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="header_social text-right">
+                            <ul>
+                                <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                                <li><a href="#"><i class="ion-social-googleplus-outline"></i></a></li>
+                                <li><a href="#"><i class="ion-social-youtube-outline"></i></a></li>
+                                <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                                <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header_middle">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-2">
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-10">
+                        <div class="header_right_info">
+                            <div class="search_container">
+                               <form action="#">
+                                   <div class="hover_category">
+                                        <select class="select_option" name="select" id="categori2">
+                                            <option selected value="1">Select a categories</option>
+                                        </select>                        
+                                   </div>
+                                    <div class="search_box">
+                                        <input placeholder="Search product..." type="text">
+                                         <button type="submit"><span class="lnr lnr-magnifier"></span></button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="header_account_area">
+                                <div class="header_account_list header_wishlist">
+                                    <a href="wishlist.html"><span class="lnr lnr-heart"></span> <span class="item_count">3</span> </a>
+                                </div>
+                                <div class="header_account_list  mini_cart_wrapper">
+                                   <a href="javascript:void(0)"><span class="lnr lnr-cart"></span><span class="item_count">1</span></a>
+                                    <!--mini cart-->
+                                    <div class="mini_cart">
+                                        <div class="cart_gallery">
+                                            <div class="cart_item">
+                                               <div class="cart_img">
+                                                   <a href="#"><img src="assets/img/product/product1.jpg" alt=""></a>
+                                               </div>
+                                                <div class="cart_info">
+                                                    <a href="#">tree1</a>
+                                                    <p>1 x <span>0,16 €</span></p>    
+                                                </div>
+                                                <div class="cart_remove">
+                                                    <a href="#"><i class="icon-x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mini_cart_table">
+                                            <div class="cart_table_border">
+                                                <div class="cart_total">
+                                                    <span>Sub total:</span>
+                                                    <span class="price">0.16 €</span>
+                                                </div>
+                                                <div class="cart_total mt-10">
+                                                    <span>total:</span>
+                                                    <span class="price">0.16 €</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mini_cart_footer">
+                                           <div class="cart_button">
+                                                <a href="cart.html"><i class="fa fa-shopping-cart"></i> View cart</a>
+                                            </div>
+                                            <div class="cart_button">
+                                                <a href="checkout.html"><i class="fa fa-sign-in"></i> Checkout</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <!--mini cart end-->
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header_bottom sticky-header">
+            <div class="container">  
+                <div class="row align-items-center">
+                    <div class="col-lg-3">
+                        <div class="categories_menu">
+                            <div class="categories_title">
+                                <h2 class="categori_toggle">All Cattegories</h2>
+                            </div>
+                            <div class="categories_menu_toggle">
+                                <ul>
+                                    <li class="menu_item_children"><a href="#">Trees<i class="fa fa-angle-right"></i></a>
+                                        <ul class="categories_mega_menu">
+                                            <li class="menu_item_children"><a href="#">Paris</a>
+                                                <ul class="categorie_sub_menu">
+                                                    <li><a href="">Tree1</a></li>
+                                                    <li><a href="">Tree2</a></li>
+                                                    <li><a href="">Tree3</a></li>
+                                                    <li><a href="">Tree4</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu_item_children"><a href="#">Nice</a>
+                                                <ul class="categorie_sub_menu">
+                                                    <li><a href="">Tree1</a></li>
+                                                    <li><a href="">Tree2</a></li>
+                                                    <li><a href="">Tree3</a></li>
+                                                    <li><a href="">Tree4</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu_item_children"><a href="#">America</a>
+                                                <ul class="categorie_sub_menu">
+                                                    <li><a href="">Tree1</a></li>
+                                                    <li><a href="">Tree2</a></li>
+                                                    <li><a href="">Tree3</a></li>
+                                                    <li><a href="">Tree4</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#"> Shopping Cart</a></li>
+                                    <li><a href="#"> About Us</a></li>
+                                    <li><a href="#"> Connect Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+
+                        <!--main menu start-->
+                        <div class="main_menu menu_position"> 
+                            <nav>  
+                                <ul>
+                                    
+                                    <li class="mega_items"><a href="shop.html">Home<i class="fa fa-angle-down"></i></a> 
+                                        <div class="mega_menu">
+                                            <ul class="mega_menu_inner">
+                                            
+                                                <li><a href="#">other Pages</a>
+                                                    <ul>
+                                                        <li><a href="cart.html">cart</a></li>
+                                                        <li><a href="#">Wishlist</a></li>
+                                                        <li><a href="cart.html">Checkout</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Trees Types</a>
+                                                    <ul>
+                                                        <li><a href="product-details.html">product details</a></li>
+
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="#">pages <i class="fa fa-angle-down"></i></a>
+                                        <ul class="sub_menu pages">
+                                            <li><a href="about.html">About Us</a></li>
+                                            <li><a href="faq.html">Frequently Questions</a></li>
+                                            <li><a href="contact.html">contact</a></li>
+                                        </ul>
+                                    </li> 
+                                    <li><a href="contact.html"> Contact Us</a></li>
+                                </ul>  
+                            </nav> 
+                        </div>
+                        <!--main menu end-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+</header>
+<!--header area end-->
+    
+    <!--breadcrumbs area start-->
+    <div class="breadcrumbs_area">
+        <div class="container">   
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumb_content">
+                       <h3>Cart</h3>
+                        <ul>
+                            <li><a href="index.html">home</a></li>
+                            <li>Shopping Cart</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>         
+    </div>
+    <!--breadcrumbs area end-->
+    
+     <!--shopping cart area start -->
+    <div class="shopping_cart_area mt-70">
+        <div class="container">  
+            <form action="#"> 
+                <div class="row">
+                    <div class="col-12">
+                        <div class="table_desc">
+                            <div class="cart_page table-responsive">
+                                <table>
+                            <thead>
+                                <tr>
+                                    <th class="product_remove">Delete</th>
+                                    <th class="product_thumb">Image</th>
+                                    <th class="product_name">Product</th>
+                                    <th class="product-price">Price</th>
+                                    <th class="product_quantity">Quantity</th>
+                                    <th class="product_total">Total</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbody">
+                               
+
+                                <!-- <tr>
+                                   <td class="product_remove"><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                                    <td class="product_thumb"><a href="#"><img src="assets/img/s-product/product2.jpg" alt=""></a></td>
+                                    <td class="product_name"><a href="#">Handbags justo</a></td>
+                                    <td class="product-price">0.45 €</td>
+                                    <td class="product_quantity"><label>Quantity</label> <input min="1" max="100" value="1" type="number"></td>
+                                    <td class="product_total">£180.00</td>
+
+
+                                </tr>
+                                <tr>
+                                   <td class="product_remove"><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                                    <td class="product_thumb"><a href="#"><img src="assets/img/s-product/product2.jpg" alt=""></a></td>
+                                    <td class="product_name"><a href="#">Handbag elit</a></td>
+                                    <td class="product-price">£80.00</td>
+                                    <td class="product_quantity"><label>Quantity</label> <input min="1" max="100" value="1" type="number"></td>
+                                    <td class="product_total">£160.00</td>
+
+
+                                </tr> -->
+
+                            </tbody>
+                        </table>   
+                            </div>  
+                            <div class="cart_submit">
+                                <button type="submit">update cart</button>
+                            </div>      
+                        </div>
+                     </div>
+                 </div>
+                 <!--coupon code area start-->
+                <div class="coupon_area">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="coupon_code left">
+                                <h3>Coupon</h3>
+                                <div class="coupon_inner">   
+                                    <p>Enter your coupon code if you have one.</p>                                
+                                    <input placeholder="Coupon code" type="text">
+                                    <button type="submit">Apply coupon</button>
+                                </div>    
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="coupon_code right">
+                                <h3>Cart Totals</h3>
+                                <div class="coupon_inner">
+                                   <div class="cart_subtotal">
+                                       <p>Subtotal</p>
+                                       <p class="cart_amount">0.16 €</p>
+                                   </div>
+                                   <div class="cart_subtotal ">
+                                       <p>Shipping</p>
+                                       <p class="cart_amount"><span>Flat Rate:</span> 0.05 €</p>
+                                   </div>
+                                   <a href="#">Calculate shipping</a>
+
+                                   <div class="cart_subtotal">
+                                       <p>Total</p>
+                                       <p class="cart_amount">0.21 €</p>
+                                   </div>
+                                   <div class="checkout_btn">
+                                       <a href="#">Proceed to Checkout</a>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--coupon code area end-->
+            </form> 
+        </div>     
+    </div>
+     <!--shopping cart area end -->
+    
+   <!--footer area start-->
+   <footer class="footer_widgets">
+    <div class="footer_top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-3 col-sm-5">
+                    <div class="widgets_container widget_menu">
+                        <h3>Information</h3>
+                        <div class="footer_menu">
+                        
+                            <ul>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="#">Delivery Information</a></li>
+                                <li><a href="#"> Privacy Policy</a></li>
+                                <li><a href="#"> Terms & Conditions</a></li>
+                                <li><a href="contact.html"> Contact Us</a></li>
+                                <li><a href="#"> Site Map</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <div class="widgets_container widget_menu">
+                        <h3>Extras</h3>
+                        <div class="footer_menu">
+                            <ul>
+                                <li><a href="#">Brands</a></li>
+                                <li><a href="#"> Gift Certificates</a></li>
+                                <li><a href="#">Affiliate</a></li>
+                                <li><a href="#">Specials</a></li>
+                                <li><a href="#">Returns</a></li>
+                                <li><a href="#"> Donate History</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="widgets_container widget_newsletter">
+                        <h3>Sign up newsletter</h3>
+                        <p class="footer_desc">Get updates by subscribe our weekly newsletter</p>
+                        <div class="subscribe_form">
+                            <form id="mc-form" class="mc-form footer-newsletter" >
+                                <input id="mc-email" type="email" autocomplete="off" placeholder="Enter you email" />
+                                <button id="mc-submit">Subscribe</button>
+                            </form>
+                            <!-- mailchimp-alerts Start -->
+                            <div class="mailchimp-alerts text-centre">
+                                <div class="mailchimp-submitting"></div><!-- mailchimp-submitting end -->
+                                <div class="mailchimp-success"></div><!-- mailchimp-success end -->
+                                <div class="mailchimp-error"></div><!-- mailchimp-error end -->
+                            </div><!-- mailchimp-alerts end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer_bottom">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-7">
+                    <div class="copyright_area">
+                        <p>Copyright &copy; 2020.Company name All rights reserved.</p>
+                    </div>
+                </div>    
+                <div class="col-lg-6 col-md-5">    
+                    <div class="footer_payment">
+                        <ul>
+                            <li><a href="#"><img src="assets/img/icon/paypal1.jpg" alt=""></a></li>
+                            <li><a href="#"><img src="assets/img/icon/paypal2.jpg" alt=""></a></li>
+                            <li><a href="#"><img src="assets/img/icon/paypal3.jpg" alt=""></a></li>
+                            <li><a href="#"><img src="assets/img/icon/paypal4.jpg" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+</footer>
+<!--footer area end-->
+
+<!-- JS
+============================================ -->
+<!--jquery min js-->
+<script src="assets/js/vendor/jquery-3.4.1.min.js"></script>
+<!--popper min js-->
+<script src="assets/js/popper.js"></script>
+<!--bootstrap min js-->
+<script src="assets/js/bootstrap.min.js"></script>
+<!--owl carousel min js-->
+<script src="assets/js/owl.carousel.min.js"></script>
+<!--slick min js-->
+<script src="assets/js/slick.min.js"></script>
+<!--magnific popup min js-->
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<!--counterup min js-->
+<script src="assets/js/jquery.counterup.min.js"></script>
+<!--jquery countdown min js-->
+<script src="assets/js/jquery.countdown.js"></script>
+<!--jquery ui min js-->
+<script src="assets/js/jquery.ui.js"></script>
+<!--jquery elevatezoom min js-->
+<script src="assets/js/jquery.elevatezoom.js"></script>
+<!--isotope packaged min js-->
+<script src="assets/js/isotope.pkgd.min.js"></script>
+<!--slinky menu js-->
+<script src="assets/js/slinky.menu.js"></script>
+<!-- Plugins JS -->
+<script src="assets/js/plugins.js"></script>
+
+<!-- Main JS -->
+<script src="assets/js/main.js"></script>
+<script type="text/javascript">
+    $(function(){
+        let a = localStorage.getItem('cart');
+        a=JSON.parse(a);
+        console.log(a);
+        let divs = '';
+        $.each(a,function(index,valur){
+            console.log(index);
+            valur = JSON.parse(valur);
+            console.log('img',valur.img);
+            console.log('valur',valur);
+            // var html = "<a href='#' onclick='onedit(&quot;"+ row.name + "&quot;)';>编辑</a>"  
+            var divs ="<tr><td class='product_remove'><a href='#' onclick='deleteItem(&quot;"+ index + "&quot;)'><i class='fa fa-trash-o'></i></a></td><td class='product_thumb'><a href='#''><img src=" + valur.img + " alt=''></a></td><td class='product_name'><a href='#'>" + valur.Product + "</a></td><td class='product-price'>" + valur.Price + "</td><td class='product_quantity'><label>" + valur.Quantity + "</label> <input min='1' max='100' value='1' type='number'></td><td class='product_total'>0.16 €</td></tr>"
+            $('#tbody').append(divs);
+        })
+    })
+    function deleteItem(e){
+        console.log(e);
+        let a = localStorage.getItem('cart');
+        a=JSON.parse(a);
+       
+        let c = [];
+        $.each(a,function(index,valur){
+            if(index == e){
+
+            }else{
+                c.push(valur)
+            }
+        })
+        console.log(c);
+        localStorage.setItem('cart',JSON.stringify(c))
+        let b = localStorage.getItem('cart');
+        console.log('b',b)
+        console.log
+        b=JSON.parse(b)
+        $('#tbody').html('');
+        $.each(b,function(index,valur){
+            console.log(index);
+            // var html = "<a href='#' onclick='onedit(&quot;"+ row.name + "&quot;)';>编辑</a>"  
+            var divs ="<tr onclick='deleteItem(&quot;"+ index + "&quot;)'><td class='product_remove'><a href='#''><i class='fa fa-trash-o'></i></a></td><td class='product_thumb'><a href='#''><img src='assets/img/s-product/product.jpg' alt=''></a></td><td class='product_name'><a href='#''>Handbag fringilla</a></td><td class='product-price'>0.16 €</td><td class='product_quantity'><label>Quantity</label> <input min='1' max='100' value='1' type='number'></td><td class='product_total'>0.16 €</td></tr>"
+            $('#tbody').append(divs);
+        })
+
+        // alert('1111',e);
+    }
+</script>
+
+</body>
+
+</html>
